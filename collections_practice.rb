@@ -48,5 +48,9 @@ end
 
 
 def sum_array(arr, sum = 0)
-  arr.inject(:+) 
+  arr.inject(:+)
+end
+
+def add_s(arr)
+  arr.each_with_index.map {|el, i| i == 1 ? el : el + "s" }
 end
