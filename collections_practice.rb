@@ -18,6 +18,7 @@ def swap_elements(arr)
   hold = arr[1]
   arr[1] = arr[2]
   arr[2] = hold
+  arr
 end
 
 
@@ -25,4 +26,5 @@ def swap_elements_from_to(arr, m, n)
   hold = arr[m]
   arr[m] = arr[n]
   arr[n] = hold
+  arr
 end
