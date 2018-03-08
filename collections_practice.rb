@@ -13,3 +13,10 @@ end
 def sort_array_char_count(arr)
   result = arr.sort_by {|x| x.length}
 end
+
+def swap_elements_from_to(arr, m, n)
+  hold = arr[m]
+  arr[m] = arr[n]
+  arr[n] = hold
+
+end
