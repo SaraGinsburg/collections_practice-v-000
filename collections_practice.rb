@@ -28,3 +28,8 @@ def swap_elements_from_to(arr, m, n)
   arr[n] = hold
   arr
 end
+
+def reverse_array(arr)
+  rev = arr.reverse
+  rev
+end
