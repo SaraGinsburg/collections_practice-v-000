@@ -1,3 +1,4 @@
 def sort_array_asc(arr)
-  arr.sort
+  sorted = arr.sort
+  sorted
 end
