@@ -33,3 +33,11 @@ def reverse_array(arr)
   rev = arr.reverse
   rev
 end
+
+def kesha_maker(arr)
+  new_arr = []
+  arr.each do |el|
+    new_arr << el[0..1]+"$" + el[3..-1]
+  end
+  new_arr
+end
